@@ -82,7 +82,7 @@ function Card({
 }) {
   const cardRef = useRef<HTMLDivElement>(null);
 
-  const distance = useTransform(mouseX, (val) => {
+  const distance = useTransform(mouseX, (val: number) => {
     if (!cardRef.current || !containerRef.current || val === -1000) return 500;
     const rect = cardRef.current.getBoundingClientRect();
     const containerRect = containerRef.current.getBoundingClientRect();
