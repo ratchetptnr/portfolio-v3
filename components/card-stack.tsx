@@ -78,7 +78,7 @@ function Card({
   card: { src: string; alt: string; rotation: number; yOffset: number; zIndex: number };
   index: number;
   mouseX: any;
-  containerRef: React.RefObject<HTMLDivElement>;
+  containerRef: React.RefObject<HTMLDivElement | null>;
 }) {
   const cardRef = useRef<HTMLDivElement>(null);
 
