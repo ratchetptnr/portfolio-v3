@@ -213,7 +213,7 @@ export default function Home() {
               <br />
               <span style={{ color: "var(--gray-10)" }}>Even if we don't work together, let's connect. I value connections.</span>
             </Text>
-            <Flex direction="row" gap="4" className="mx-auto w-full max-w-xl">
+            <Flex direction="row" gap="4" className="mx-auto w-full max-w-xl flex-wrap">
             <Button
               variant="solid"
               highContrast
