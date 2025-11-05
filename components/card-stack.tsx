@@ -51,10 +51,10 @@ export function CardStack() {
   return (
     <div
       ref={containerRef}
-      className="relative flex items-start justify-center gap-0 w-full"
+      className="relative flex items-start justify-center gap-0 w-full overflow-visible"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      style={{ height: "300px" }}
+      style={{ height: "350px" }}
     >
       {cards.slice(0, visibleCards).map((card, index) => (
         <Card

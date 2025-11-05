@@ -55,17 +55,17 @@ export default function Home() {
       <section className="px-6 md:px-4 py-16 bg-white dark:bg-black">
         <FadeIn>
           <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
-            <Text size="4" weight="medium" as="p">
+            <Text size="5" weight="medium" as="p">
               <span style={{ color: "var(--gray-12)" }}>I am a Product Designer.</span>
               <br />
               <span style={{ color: "var(--gray-10)" }}>But I also photograph things, video game occasionally, make coffee daily.</span>
             </Text>
-            <Text size="4" weight="medium" as="p">
+            <Text size="5" weight="medium" as="p">
               <span style={{ color: "var(--gray-10)" }}>My design philosophy:</span>
               <br />
               <span style={{ color: "var(--gray-10)" }}>"Keep the </span><span style={{ color: "var(--gray-12)" }}>details less</span><span style={{ color: "var(--gray-10)" }}>, and make those </span><span style={{ color: "var(--gray-12)" }}>details perfect.</span><span style={{ color: "var(--gray-10)" }}>" - Jack Dorsey</span>
             </Text>
-            <Text size="4" weight="medium" as="p">
+            <Text size="5" weight="medium" as="p">
               <span style={{ color: "var(--gray-12)" }}>Previously at Womp 3D.</span>
               <br />
               <span style={{ color: "var(--gray-10)" }}>Open to work.</span>
@@ -89,9 +89,9 @@ export default function Home() {
         <div className="mx-auto w-full max-w-5xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <FadeIn>
-              <div className="flex flex-col items-center gap-4">
+              <div className="flex flex-col items-center relative">
                 <motion.div
-                  className="flex justify-center"
+                  className="flex justify-center relative z-0"
                   initial={{ rotate: wompRotation }}
                   whileInView={{ rotate: wompRotation }}
                   whileHover={{ rotate: 0 }}
@@ -108,21 +108,21 @@ export default function Home() {
                 <Image
                   src="/womp-text.png"
                   alt="Womp 3D"
-                  width={150}
-                  height={50}
-                  className="h-auto"
+                  width={180}
+                  height={60}
+                  className="h-auto -mt-8 relative z-10 scale-150"
                 />
               </div>
             </FadeIn>
             <FadeIn delay={0.2}>
               <Flex direction="column" gap="6" className="w-full max-w-xl">
-                <Text size="4" weight="medium" as="p">
+                <Text size="5" weight="medium" as="p">
                   <span style={{ color: "var(--gray-12)" }}>Imagine Canva but for 3D.</span>
                 </Text>
-                <Text size="4" weight="medium" as="p">
+                <Text size="5" weight="medium" as="p">
                   <span style={{ color: "var(--gray-10)" }}>Users who have trouble with Adobe Suite use Canva.</span>
                 </Text>
-                <Text size="4" weight="medium" as="p">
+                <Text size="5" weight="medium" as="p">
                   <span style={{ color: "var(--gray-10)" }}>What about people who don't want to learn complex 3D tools. </span><span style={{ color: "var(--gray-12)" }}>That's where Womp comes in.</span>
                 </Text>
                 <Button
@@ -146,9 +146,9 @@ export default function Home() {
         <div className="mx-auto w-full max-w-5xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <FadeIn>
-              <div className="flex flex-col items-center gap-4">
+              <div className="flex flex-col items-center relative">
                 <motion.div
-                  className="flex justify-center"
+                  className="flex justify-center relative z-0"
                   initial={{ rotate: bibleRotation }}
                   whileInView={{ rotate: bibleRotation }}
                   whileHover={{ rotate: 0 }}
@@ -165,18 +165,18 @@ export default function Home() {
                 <Image
                   src="/bible-text.png"
                   alt="Simple Telugu Bible"
-                  width={150}
-                  height={50}
-                  className="h-auto"
+                  width={200}
+                  height={65}
+                  className="h-auto -mt-12 relative z-10"
                 />
               </div>
             </FadeIn>
             <FadeIn delay={0.2}>
               <Flex direction="column" gap="6" className="w-full max-w-xl">
-                <Text size="4" weight="medium" as="p">
+                <Text size="5" weight="medium" as="p">
                   <span style={{ color: "var(--gray-12)" }}>The app I am building for my grandma.</span>
                 </Text>
-                <Text size="4" weight="medium" as="p">
+                <Text size="5" weight="medium" as="p">
                   <span style={{ color: "var(--gray-10)" }}>She struggles with printed bibles, the text is too small and apps are too complicated for her.</span>
                 </Text>
 
@@ -200,15 +200,15 @@ export default function Home() {
       <section className="px-6 md:px-4 py-16 bg-white dark:bg-black">
         <FadeIn>
           <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
-            <Text size="4" weight="medium" as="p">
+            <Text size="5" weight="medium" as="p">
               <span style={{ color: "var(--gray-12)" }}>I loooove designing and building things that people want to use.</span>
             </Text>
-            <Text size="4" weight="medium" as="p">
+            <Text size="5" weight="medium" as="p">
               <span style={{ color: "var(--gray-10)" }}>I help startups scale by</span>
               <br />
               <span style={{ color: "var(--gray-12)" }}>keeping the details less and making those details perfect.</span>
             </Text>
-            <Text size="4" weight="medium" as="p">
+            <Text size="5" weight="medium" as="p">
               <span style={{ color: "var(--gray-12)" }}>If the vibe matches, and you have a startup to scale. Hit me up.</span>
               <br />
               <span style={{ color: "var(--gray-10)" }}>Even if we don't work together, let's connect. I value connections.</span>
@@ -251,7 +251,7 @@ export default function Home() {
         </FadeIn>
       </section>
 
-      <section className="flex flex-col items-center justify-center py-16 bg-white dark:bg-black gap-24 overflow-visible">
+      <section className="flex flex-col items-center justify-center pt-16 pb-0 bg-white dark:bg-black gap-20 overflow-hidden max-h-[920px]">
         <FadeIn>
           <motion.div
             initial={{ rotate: flowerRotation }}
@@ -268,7 +268,9 @@ export default function Home() {
             />
           </motion.div>
         </FadeIn>
-        <CardStack />
+        <div className="mt-20">
+          <CardStack />
+        </div>
       </section>
 
     </div>
