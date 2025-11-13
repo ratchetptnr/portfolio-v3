@@ -180,17 +180,30 @@ export default function Home() {
                   <span style={{ color: "var(--gray-10)" }}>She struggles with printed bibles, the text is too small and apps are too complicated for her.</span>
                 </Text>
 
-                <Button
-                  variant="outline"
-                  highContrast
-                  color="gray"
-                  radius="large"
-                  size="4"
-                  style={{ width: "fit-content" }}
-                  asChild
-                >
-                  <a href="https://ratchetptnr.github.io/simple-telugu-bible/changelog.html" target="_blank" rel="noopener noreferrer">View changelog</a>
-                </Button>
+                <Flex direction="row" gap="4" className="flex-wrap">
+                  <Button
+                    variant="outline"
+                    highContrast
+                    color="gray"
+                    radius="large"
+                    size="4"
+                    style={{ width: "fit-content" }}
+                    asChild
+                  >
+                    <a href="https://ratchetptnr.github.io/simple-telugu-bible/changelog.html" target="_blank" rel="noopener noreferrer">View changelog</a>
+                  </Button>
+                  <Button
+                    variant="outline"
+                    highContrast
+                    color="gray"
+                    radius="large"
+                    size="4"
+                    style={{ width: "fit-content" }}
+                    asChild
+                  >
+                    <a href="/projects/simple-telugu-bible">Learn more</a>
+                  </Button>
+                </Flex>
               </Flex>
             </FadeIn>
           </div>
