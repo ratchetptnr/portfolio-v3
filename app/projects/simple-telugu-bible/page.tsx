@@ -22,7 +22,7 @@ export default function SimpleTeluguBiblePage() {
                 height={400}
                 className="w-full max-w-72 h-auto"
               />
-              <Text size="8" weight="bold" as="h1" style={{ color: "var(--gray-12)" }}>
+              <Text size="8" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                 A Bible App for My Grandma
               </Text>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
