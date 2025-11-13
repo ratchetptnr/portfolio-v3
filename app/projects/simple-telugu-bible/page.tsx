@@ -2,7 +2,7 @@
 
 import { TopBar } from "@/components/top-bar";
 import Image from "next/image";
-import { Text, Button, Flex } from "@radix-ui/themes";
+import { Text, Button, Flex, Heading } from "@radix-ui/themes";
 import { FadeIn } from "@/components/fade-in";
 
 export default function SimpleTeluguBiblePage() {
@@ -22,12 +22,12 @@ export default function SimpleTeluguBiblePage() {
                 height={400}
                 className="w-full max-w-72 h-auto"
               />
-              <Text size="8" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+              <Heading size="8" weight="bold" as="h1" style={{ color: "var(--gray-12)" }}>
                 A Bible App for My Grandma
-              </Text>
+              </Heading>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 Designed for seniors. Built with love.
-              </Text>
+              </Heading>
               <a
                 href="https://play.google.com/store/apps/details?id=com.ratchet.simpletelugubible"
                 target="_blank"
@@ -51,24 +51,24 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+                <Heading size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
                   Where this story begins
-                </Text>
+                </Heading>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                   My grandma often asked me to open specific verses in her printed Telugu Bible.
-                </Text>
+                </Heading>
               </Flex>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-12)" }}>
               "Matthew… 3… chapter… 15… verse."
-              </Text>
+              </Heading>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 Because I didn't know the Telugu names of the books, I would quickly Google the English ↔ Telugu mapping each time. It happened during church, during evenings. Honestly, I didn't mind. It was our small ritual.
-              </Text>
+              </Heading>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-12)" }}>
               But over time, I realised something deeper:
               <br/> She wasn't just asking for help.
               She was losing independence.<br/> That stayed with me.
-              </Text>
+              </Heading>
             </Flex>
           </FadeIn>
         </section>
@@ -78,18 +78,18 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+                <Heading size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
                   When bigger print wasn't enough
-                </Text>
+                </Heading>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                   We bought her the largest-print Telugu Bible.<br/>
                   It worked… then it didn't.
-                </Text>
+                </Heading>
               </Flex>
               <Flex direction="column" gap="6">
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 We tried existing Bible apps too. They were filled with…
-                </Text>
+                </Heading>
                 <ul className="list-disc pl-6 space-y-2">
                   <li><Text size="5" weight="medium" style={{ color: "var(--gray-10)" }}>Habits and gamification</Text></li>
                   <li><Text size="5" weight="medium" style={{ color: "var(--gray-10)" }}>Social features</Text></li>
@@ -98,11 +98,11 @@ export default function SimpleTeluguBiblePage() {
               </Flex>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 Great for modern users but overwhelming for grandma.
-              </Text>
+              </Heading>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-12)" }}>
               At that point, I asked myself:
               <br/> Why not build something just for her?
-              </Text>
+              </Heading>
             </Flex>
           </FadeIn>
         </section>
@@ -112,27 +112,27 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+                <Heading size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
                   Voice navigation
-                </Text>
+                </Heading>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 Since she always said the verse out loud, my first idea was simple:
-                </Text>
+                </Heading>
               </Flex>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-12)" }}>
               Let her speak the verse → app jumps to it.
               <br/> I built a prototype using Gemini Flash Lite.
-              </Text>
+              </Heading>
 
               {/* Video placeholder */}
               <div className="w-full aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
-                <Text size="3" style={{ color: "var(--gray-9)" }}>Video placeholder</Text>
+                <Text size="3" style={{ color: "var(--gray-9)" }}>Video placeholder</Heading>
               </div>
 
               <Flex direction="column" gap="6">
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                   Why it failed:
-                </Text>
+                </Heading>
                 <ul className="list-disc pl-6 space-y-2">
                   <li><Text size="5" weight="medium" style={{ color: "var(--gray-10)" }}>Microphone quality, </Text></li>
                   <li><Text size="5" weight="medium" style={{ color: "var(--gray-10)" }}>Telugu order is unpredictable</Text></li>
@@ -143,7 +143,7 @@ export default function SimpleTeluguBiblePage() {
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
               This was my key insight:
               <br/> AI isn't always the answer. Sometimes good UX is enough.
-              </Text>
+              </Heading>
             </Flex>
           </FadeIn>
         </section>
@@ -153,20 +153,20 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+                <Heading size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
                   Simple and calm navigation
-                </Text>
+                </Heading>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                   I reframed the problem:
-                </Text>
+                </Heading>
               </Flex>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-12)" }}>
                 How do I let her reach any verse in three easy taps?
-              </Text>
+              </Heading>
               <Flex direction="column" gap="6">
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 So I designed, with these 3 key principles:
-                </Text>
+                </Heading>
                 <ul className="list-disc pl-6 space-y-2">
                   <li><Text size="5" weight="medium" style={{ color: "var(--gray-10)" }}>Choose book → Choose chapter → Scroll to verse</Text></li>
                   <li><Text size="5" weight="medium" style={{ color: "var(--gray-10)" }}>Customisable text</Text></li>
@@ -176,7 +176,7 @@ export default function SimpleTeluguBiblePage() {
 
               {/* Video placeholder */}
               <div className="w-full aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
-                <Text size="3" style={{ color: "var(--gray-9)" }}>Video placeholder</Text>
+                <Text size="3" style={{ color: "var(--gray-9)" }}>Video placeholder</Heading>
               </div>
             </Flex>
           </FadeIn>
@@ -187,12 +187,12 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+                <Heading size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
                   Building it (Android + Vibe Coding)
-                </Text>
+                </Heading>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                   Since she uses Android, I built natively using:
-                </Text>
+                </Heading>
               </Flex>
               <ul className="list-disc pl-6 space-y-2">
                 <li><Text size="5" weight="medium" style={{ color: "var(--gray-10)" }}>Android studio.</Text></li>
@@ -200,7 +200,7 @@ export default function SimpleTeluguBiblePage() {
               </ul>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 The core app came together quickly.
-              </Text>
+              </Heading>
             </Flex>
           </FadeIn>
         </section>
@@ -210,21 +210,21 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+                <Heading size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
                   A new insight - Understanding the Verse
-                </Text>
+                </Heading>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 While talking to my dad, he mentioned something important: <br/>
                 "Reading is fine. Understanding is hard."
-                </Text>
+                </Heading>
               </Flex>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-12)" }}>
               Telugu Biblical language is old and complex.
-              </Text>
+              </Heading>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
               This led to the next idea: <br/>
               What if Grandma could ask the app what a verse means?
-              </Text>
+              </Heading>
             </Flex>
           </FadeIn>
         </section>
@@ -234,16 +234,16 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+                <Heading size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
                   Adding AI chat
-                </Text>
+                </Heading>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                   I built a simple chat using Claude Code in ~30 minutes.
-                </Text>
+                </Heading>
               </Flex>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 The family tested it. Responses were in Telugu. It immediately added value.
-              </Text>
+              </Heading>
             </Flex>
           </FadeIn>
         </section>
@@ -253,17 +253,17 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+                <Heading size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
                   Reducing steps — Help from the verse itself
-                </Text>
+                </Heading>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 Feedback: "We want to get help while reading."
-                </Text>
+                </Heading>
               </Flex>
               <Flex direction="column" gap="6">
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 So I added:
-                </Text>
+                </Heading>
                 <ul className="list-disc pl-6 space-y-2">
                   <li><Text size="5" weight="medium" style={{ color: "var(--gray-10)" }}>Tap + hold a verse</Text></li>
                   <li><Text size="5" weight="medium" style={{ color: "var(--gray-10)" }}>Bottom sheet → "Ask AI about this verse"</Text></li>
@@ -273,7 +273,7 @@ export default function SimpleTeluguBiblePage() {
 
               {/* Video placeholder */}
               <div className="w-full aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
-                <Text size="3" style={{ color: "var(--gray-9)" }}>Video placeholder</Text>
+                <Text size="3" style={{ color: "var(--gray-9)" }}>Video placeholder</Heading>
               </div>
             </Flex>
           </FadeIn>
@@ -284,16 +284,16 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+                <Heading size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
                   Bilingual support
-                </Text>
+                </Heading>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 Younger family members preferred English.
-                </Text>
+                </Heading>
               </Flex>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 So I added a simple Telugu ↔ English toggle. <br/> Two generations could now use the same app.
-              </Text>
+              </Heading>
             </Flex>
           </FadeIn>
         </section>
@@ -303,19 +303,19 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+                <Heading size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
                   Launch day
-                </Text>
+                </Heading>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 After 4 weeks of iteration and testing, I shipped the app on Google Play.
-                </Text>
+                </Heading>
               </Flex>
               <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
               Now my grandma reads independently again, something she thought she was losing.
-              </Text>
+              </Heading>
               {/* Video placeholder */}
               <div className="w-full aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
-                <Text size="3" style={{ color: "var(--gray-9)" }}>Video placeholder</Text>
+                <Text size="3" style={{ color: "var(--gray-9)" }}>Video placeholder</Heading>
               </div>
             </Flex>
           </FadeIn>
@@ -326,9 +326,9 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+                <Heading size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
                   What I learned
-                </Text>
+                </Heading>
               </Flex>
               <ul className="list-disc pl-6 space-y-2">
                 <li><Text size="5" weight="medium" style={{ color: "var(--gray-10)" }}>Designing for one person brings extreme clarity</Text></li>
@@ -345,12 +345,12 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
+                <Heading size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
                   What's next
-                </Text>
+                </Heading>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
                 For now, the mission is simple: <br/> Put this in front of more Telugu-speaking elders.
-                </Text>
+                </Heading>
               </Flex>
             </Flex>
           </FadeIn>
