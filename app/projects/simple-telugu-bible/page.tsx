@@ -51,7 +51,7 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
+                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                   Where this story begins
                 </Text>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
@@ -78,7 +78,7 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
+                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                   When bigger print wasn't enough
                 </Text>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
@@ -112,7 +112,7 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
+                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                   Voice navigation
                 </Text>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
@@ -153,7 +153,7 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
+                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                   Simple and calm navigation
                 </Text>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
@@ -187,7 +187,7 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
+                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                   Building it (Android + Vibe Coding)
                 </Text>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
@@ -210,7 +210,7 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
+                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                   A new insight - Understanding the Verse
                 </Text>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
@@ -234,7 +234,7 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
+                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                   Adding AI chat
                 </Text>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
@@ -253,7 +253,7 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
+                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                   Reducing steps — Help from the verse itself
                 </Text>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
@@ -284,7 +284,7 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
+                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                   Bilingual support
                 </Text>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
@@ -303,7 +303,7 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
+                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                   Launch day
                 </Text>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
@@ -326,7 +326,7 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
+                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                   What I learned
                 </Text>
               </Flex>
@@ -345,7 +345,7 @@ export default function SimpleTeluguBiblePage() {
           <FadeIn>
             <Flex direction="column" gap="6" className="mx-auto w-full max-w-xl">
               <Flex direction="column" gap="4">
-                <Text size="7" weight="bold" as="h2" style={{ color: "var(--gray-12)" }}>
+                <Text size="7" weight="bold" as="p" style={{ color: "var(--gray-12)" }}>
                   What's next
                 </Text>
                 <Text size="5" weight="medium" as="p" style={{ color: "var(--gray-10)" }}>
